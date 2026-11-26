@@ -1,6 +1,6 @@
-# this is known as file explorer where we can run multiple lines as opposed 
+# Others found in R documentation
 
-# Console Commands
+# CONSOLE COMMANDS
 # dir.create('filename')                       : to create a new directory
 # unlink("folder", recursive = TRUE)           : remove all the sub-folder inside the "folder"
 # getwd()                                      : to get the current working directory
@@ -19,29 +19,14 @@
 # library('name')                              : to load the library
 # ?files                                       : All commands
 # file.edit('filename.Rmd')                    : to create a R markdown file
-# ctrl + alt + i                               : to create a code block
 
-# Key shortcuts
-# Cmd  + 2                                     : to move to Rconsole
-# Cmd  + 1                                     : to move to File editor
-# Cmd  + Shift + c                             : to comment a selected line
-# Cmd  + l                                     : to clear the Rconsole
-# Alt + Shift +K                               : to check all the commands
-# Cmd  + enter                                 : to run single line of the code
-# Cmd + Shift + S                              : to run the whole file without echo
+# SHORTCUTS
+# Cmd + 2                                      : to move to Rconsole
+# Cmd + 1                                      : to move to File editor
+# Cmd + Shift + c                              : to comment a selected line
+# Cmd + l                                      : to clear the Rconsole
+# Alt + Shift + K                              : to check all the commands
+# Cmd + Enter                                  : to run single line of the code
+# Cmd + Shift + S                              : to run the whole file w/o echo
 # Cmd + Shift + Enter                          : to run the whole file with echo
-# Cmd  + c                                     : to stop the command from executing
-
-# Install.packages('package_name')
-# library('package_name')
-# library('magrittr')                          : to use pipe operator
-# library('tidyverse')                         : read_csv('filename.csv') 
-
-name <- readline("What is your name? ")
-a <- paste("Hello, ", name, sep="")
-b <- paste0("Hello, ", name) # this default have sep =""
-print(a)
-print(b)
-
-# Function composition
-print(paste0("Hello, ", readline("What is your name? ")))
+# Cmd + c                                      : to stop the command from executing
